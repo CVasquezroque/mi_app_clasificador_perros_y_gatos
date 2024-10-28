@@ -10,7 +10,6 @@ import zipfile
 import os
 import contextlib
 
-# Mostrar la versión de TensorFlow
 st.write(f"TensorFlow version: {tf.__version__}")
 # Descargar y descomprimir el modelo si no existe
 def download_and_extract_model():
