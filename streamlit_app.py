@@ -10,6 +10,8 @@ import zipfile
 import os
 import contextlib
 
+# Mostrar la versión de TensorFlow
+st.write(f"TensorFlow version: {tf.__version__}")
 # Descargar y descomprimir el modelo si no existe
 def download_and_extract_model():
     model_url = 'https://dl.dropboxusercontent.com/s/4swm8f0ljha4m1ys743kb/best_model.zip?rlkey=5heqtz9pnzcjgj13lndb3x3x8&st=yld8tmhb'
